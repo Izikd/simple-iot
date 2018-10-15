@@ -25,6 +25,7 @@ static struct cli_entry reset_cli = {
 };
 
 /* Sleep */
+#if 0
 static int sleep_handler(int argc, char **const argv)
 {
     unsigned int t;
@@ -48,6 +49,7 @@ static int sleep_handler(int argc, char **const argv)
 
     return 0;
 }
+#endif
 
 
 extern "C" void esp_yield();

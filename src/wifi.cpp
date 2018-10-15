@@ -8,7 +8,6 @@ static const char* ssid = "SSID";
 static const char* password = "PASSWORD";
 
 static bool prevStatus = false;
-static bool reportedStatus = false;
 
 void wifi_init(void)
 {
