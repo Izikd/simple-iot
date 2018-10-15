@@ -8,6 +8,7 @@
 #include "cli_basic.h"
 #include "wifi.h"
 #include "ota.h"
+#include "gpio.h"
 
 void setup() {
     log_init();
@@ -18,6 +19,7 @@ void setup() {
 
     wifi_init();
     ota_init();
+    gpio_init();
 }
 
 void loop() {
